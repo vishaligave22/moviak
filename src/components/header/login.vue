@@ -4,7 +4,7 @@
           <div class="container px-5">
             <div class="header">
     <b-navbar-nav>
-      <div class="vip pt-2 mr-4 text-center"  href="#"><font-awesome-icon icon="apple-alt"/> VIP SWEEPSTAKES </div>
+      <div class="vip pt-2 px-1 mr-4 text-center"  href="#"><font-awesome-icon icon="apple-alt"/> VIP SWEEPSTAKES </div>
       <div class=" shopping mt-2 mr-2" href="#"> $5000 SHOPPING SPREE</div>
       <div class=" join mt-2" href="#"> Join Movies VIP for a chance to win.Don't forget to join during checkout</div>
       <b-nav-item class="login" href="#"> <font-awesome-icon icon="user"/> Login</b-nav-item>
@@ -44,6 +44,11 @@
   font-weight: $bold;
   font-style:$italic;
   font-size:$font-size;
+     
+
+}
+.px-5 {
+    padding-left: 2rem !important;
 }
 .shopping{
   color: $orange;

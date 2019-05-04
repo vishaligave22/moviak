@@ -8,7 +8,7 @@
   <div>
       <div class="row justify-content-md-center">
     <div class="col-md-2">
-      <div><b-img center class="img-fluid"  :src="require('@/assets/images/img_2.jpg')"></b-img></div>
+      <div><b-img center class="movielist img-fluid"  :src="require('@/assets/images/img_2.jpg')"></b-img></div>
       <div class="title text-left mt-2">Star Trek Beyond</div>
       <div class=" date mt-4 text-left">Release: August 3,2017</div>
      <div class="d-flex text-left mt-2">
@@ -20,7 +20,7 @@
     
     <div class="col-md-2">
       <div>
-        <b-img center class="img-fluid"  :src="require('@/assets/images/img_3.jpg')"></b-img>
+        <b-img center class=" movielist img-fluid"  :src="require('@/assets/images/img_3.jpg')"></b-img>
         </div>
       <div class="title text-left mt-2">Bad Moms</div>
       <div class=" date mt-4 text-left">Release: july 15,2017</div>
@@ -33,7 +33,7 @@
     
     <div class="col-md-2">
       <div>
-        <b-img center class="img-fluid"  :src="require('@/assets/images/img_8.jpg')"></b-img>
+        <b-img center class=" movielist img-fluid"  :src="require('@/assets/images/img_8.jpg')"></b-img>
         </div>
       <div class="title text-left mt-2">The Girl With All The Gifts</div>
       <div class="date mt-4 text-left ">Release: May 18,2017</div>
@@ -46,7 +46,7 @@
     
     <div class="col-md-2">
       <div>
-        <b-img center class="img-fluid"  :src="require('@/assets/images/img_9.jpg')"></b-img>
+        <b-img center class=" movielist img-fluid"  :src="require('@/assets/images/img_9.jpg')"></b-img>
         </div>
       <div class="title text-left mt-2">Sausage Party</div>
       <div class=" date mt-4 text-left">Release: May 6,2017</div>
@@ -59,7 +59,7 @@
     
     <div class="col-md-2">
       <div>
-        <b-img center class="img-fluid"  :src="require('@/assets/images/img_10.jpg')"></b-img>
+        <b-img center class=" movielist img-fluid"  :src="require('@/assets/images/img_10.jpg')"></b-img>
         </div>
       <div class="title text-left mt-2">Don't Breathe</div>
       <div class="date mt-4 text-left">Release: july 20,2017</div>
@@ -137,6 +137,9 @@ a{
 }
 .breadcrumb-item.active {
     color: $orange;
+}
+.movielist{
+  border-bottom: 2px solid $orange;
 }
 
 </style>

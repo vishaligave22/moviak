@@ -34,7 +34,7 @@
       </b-navbar-nav>
       </div>
   </b-navbar> -->
-<div class="container  mx-5">
+<div class="container  mx-6 ">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/"><img src="@/assets/images/Screenshot.png" alt="moviak" class=""></a>
   <form class="form-inline my-2 my-lg-0">
@@ -80,6 +80,9 @@
   background-color: $orange;
   color:$white;
   font-weight:$bold;
+}
+.navbar{
+  padding:1px;
 }
 .navbar-light .navbar-nav .nav-link {
     color: $black;
