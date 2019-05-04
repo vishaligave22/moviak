@@ -34,23 +34,23 @@
       </b-navbar-nav>
       </div>
   </b-navbar> -->
-<div class="container mx-5">
+<div class="container  mx-5">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/"><img src="@/assets/images/Screenshot.png" alt="moviak" class=""></a>
   <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Movie Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+      <input class="search form-control mr-sm-2" type="search" placeholder="Movie Search..." aria-label="Search">
+      <button class="go btn my-2 my-sm-0" type="submit">Go</button>
     </form>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active" href="#">MOVIE LAYOUT</a>
-      <a class="nav-item nav-link active" href="#">PAGE SINGLE</a>
-      <a class="nav-item nav-link active" href="#">SHOW TIME</a>
-      <a class="nav-item nav-link active" href="#">TOP RATED</a>
+    <div class="  navbar-nav ml-auto">
+      <a class=" navigation nav-item nav-link active" href="#">HOME </a>
+      <a class=" navigation nav-item nav-link " href="#">MOVIE LAYOUT</a>
+      <a class=" navigation nav-item nav-link " href="#">PAGE SINGLE</a>
+      <a class=" navigation nav-item nav-link " href="#">SHOW TIME</a>
+      <a class=" navigation nav-item nav-link " href="#">TOP RATED</a>
       
     </div>
   </div>
@@ -69,6 +69,29 @@
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/sass/variables.scss";
 
+.search{
+  border-radius:$border-radius;
+}
+.go{
+  border-radius: 100px;
+  border-color: $orange;
+  background-color: $orange;
+  color:$white;
+  font-weight:$bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $black;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    border-bottom:2px solid $orange;
+    color:$black;
+}
+.navigation{
+  color: $black;
+  font-weight: $bold;
+  font-size:$font-size;
+  }
 
 </style>
