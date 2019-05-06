@@ -34,12 +34,12 @@
       </b-navbar-nav>
       </div>
   </b-navbar> -->
-<div class="container  mx-6 ">
+<div class="container mx-6 ">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/"><img src="@/assets/images/Screenshot.png" alt="moviak" class=""></a>
   <form class="form-inline my-2 my-lg-0">
       <input class="search form-control mr-sm-2" type="search" placeholder="Movie Search..." aria-label="Search">
-      <button class="go btn my-2 my-sm-0" type="submit">Go</button>
+      <button class="go btn my-2 my-sm-0" type="submit">GO</button>
     </form>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -73,13 +73,29 @@
 
 .search{
   border-radius:$border-radius;
+  font-size:14px;
 }
 .go{
-  border-radius: 100px;
+  border-radius: 100%;
   border-color: $orange;
   background-color: $orange;
+  font-size:13px;
   color:$white;
   font-weight:$bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.btn:hover {
+    color: $white;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 170px;
+}
+#navbarNavAltMarkup{
+  margin-right:66px;
 }
 .navbar{
   padding:1px;
@@ -94,7 +110,9 @@
 .navigation{
   color: $black;
   font-weight: $bold;
-  font-size:$font-size;
+  font-size:12px;
+  padding-bottom:0px;
+  margin-left: 10px;
   }
 
 </style>

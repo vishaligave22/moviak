@@ -4,10 +4,10 @@
           <div class="container px-5">
             <div class="header">
     <b-navbar-nav>
-      <div class="vip pt-2 px-1 mr-4 text-center"  href="#"><font-awesome-icon icon="apple-alt"/> VIP SWEEPSTAKES </div>
+      <div class="vip pt-2 p-2 mr-3 text-center"  href="#"><font-awesome-icon icon="apple-alt"/> VIP SWEEPSTAKES </div>
       <div class=" shopping mt-2 mr-2" href="#"> $5000 SHOPPING SPREE</div>
       <div class=" join mt-2" href="#"> Join Movies VIP for a chance to win.Don't forget to join during checkout</div>
-      <b-nav-item class="login" href="#"> <font-awesome-icon icon="user"/> Login</b-nav-item>
+      <div class="login mr-auto"><b-nav-item href="#"><font-awesome-icon icon="user"/> Login</b-nav-item></div>
 
       
     </b-navbar-nav>
@@ -31,6 +31,8 @@
 .login{
   $color:$color;
   margin-left: 176px;
+  font-size:13px;
+  padding-left:75px;
  }
  .navbar{
    padding: -0.5rem 1rem;
@@ -43,7 +45,7 @@
   color: $white;
   font-weight: $bold;
   font-style:$italic;
-  font-size:$font-size;
+  font-size:10px;
      
 
 }
@@ -52,11 +54,12 @@
 }
 .shopping{
   color: $orange;
-  font-size:$font-size;
+  font-size:12px;
+  font-weight: $bold;
 }
 .join{
   color:$color;
-  font-size:$font-size;
+  font-size:13px;
 }
 
 </style>
