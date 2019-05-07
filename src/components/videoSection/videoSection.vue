@@ -1,13 +1,14 @@
 <template>
-    <div class="comtainer mt-4 mb-5">
-        <div class="row">
+<div class="mx-5 px-5 pt-1">
+    <div class="comtainer mt-5 mb-5">
+        <div class="row justify-content-center">
             <div class="col-md-6">
                 <!-- videosection -->
 
-              <div class="title">Videos and photos</div>
-              <iframe width="400" height="300" src="https://www.youtube.com/embed/S7D2Ikz62Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <div class="subtitle">10 Cloverfield Lane</div>
-              <div>A young woman wakes up after a terrible accident to find that she's
+              <div class="title mb-3">Videos and photos</div>
+              <iframe width="400" height="280" src="https://www.youtube.com/embed/S7D2Ikz62Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="subtitle text-left">10 Cloverfield Lane</div>
+              <div class="paragraph text-left px-5">A young woman wakes up after a terrible accident to find that she's
                 locked in a cellar with a doomsday prepper,...who insists that he saved
                 her life and that the world outside is uninhabitable following an 
                 apocalyptic catastrophe.Uncertain what to believe.the woman soon...</div>  
@@ -43,9 +44,11 @@
             </div>
 
         </div>
+        
         </div>
 
 
+    </div>
     </div>
 </template>
 
@@ -56,8 +59,34 @@
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/sass/variables.scss";
+
 .grid img{
     width:100%;
+    border: 1px solid $white;
+    margin-left: -112px;
 }
+.title{
+    
+    font-size: 23px;
+    font-weight: bold;
+    color: #f56a18;
+    padding-right: 196px;
 
+}
+.subtitle{
+    
+    font-weight: bold;
+    padding-left: 64px;
+    color:$black;
+
+}
+.paragraph{
+    
+    font-size: 12px;
+    padding-left: 62px;
+    color:#4e4e4e;
+    margin-left: 13px;
+
+}
 </style>
