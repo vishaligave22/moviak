@@ -5,6 +5,7 @@
     <div><moviesList/></div>
     <div><topMovies/></div>
     <div><videoSection/></div>
+    <div><latestNews/></div>
    
   </div>
 </template>
@@ -16,6 +17,7 @@ import carousel from "@/components/carousel/carousel.vue";
 import moviesList from "@/components/moviesList/moviesList.vue";
 import topMovies from "@/components/topMovies/topMovies.vue";
 import videoSection from "@/components/videoSection/videoSection.vue";
+import latestNews from "@/components/latestNews/latestNews.vue";
 
 export default {
   name: 'home',
@@ -24,7 +26,8 @@ export default {
     carousel,
     moviesList,
     topMovies,
-    videoSection
+    videoSection,
+    latestNews,
   },
 };
 </script>

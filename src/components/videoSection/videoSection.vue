@@ -1,5 +1,5 @@
 <template>
-    <div class="comtainer mt-4">
+    <div class="comtainer mt-4 mb-5">
         <div class="row">
             <div class="col-md-6">
                 <!-- videosection -->
@@ -12,6 +12,37 @@
                 her life and that the world outside is uninhabitable following an 
                 apocalyptic catastrophe.Uncertain what to believe.the woman soon...</div>  
             </div>
+
+            <!-- photosection -->
+
+        <div class="col-md-6">
+            <div class="grid">
+
+    <div class="d-flex">
+    <div><b-img  :src="require('@/assets/images/grid2.jpg')"></b-img></div>
+    <div><b-img  :src="require('@/assets/images/grid1.jpg')"></b-img></div>
+    <div><b-img :src="require('@/assets/images/grid3.jpg')"></b-img></div>
+
+  </div>
+
+  <div class="d-flex">
+    <div><b-img  :src="require('@/assets/images/grid4.jpg')"></b-img></div>
+    <div><b-img  :src="require('@/assets/images/grid5.jpg')"></b-img></div>
+    <div><b-img :src="require('@/assets/images/grid6.jpg')"></b-img></div>
+
+  </div>
+
+  <div class="d-flex">
+    <div><b-img  :src="require('@/assets/images/grid7.jpg')"></b-img></div>
+    <div><b-img  :src="require('@/assets/images/grid8.jpg')"></b-img></div>
+    <div><b-img :src="require('@/assets/images/grid4.jpg')"></b-img></div>
+
+  </div>
+
+
+            </div>
+
+        </div>
         </div>
 
 
@@ -25,5 +56,8 @@
 </script>
 
 <style lang="scss" scoped>
+.grid img{
+    width:100%;
+}
 
 </style>

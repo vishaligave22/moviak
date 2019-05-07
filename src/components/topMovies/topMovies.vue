@@ -1,7 +1,7 @@
 <template>
-    <div class="">
+    <div>
         <div class="container">
-            <div class="d-flex mt-5">
+            <div class="movienav d-flex mt-5">
      <div class="flex-fill mt-3">
       <a href="#"><font-awesome-icon class="icon1" icon="map-marked-alt" />
         <div class="name">CINEMAS</div></a>
@@ -21,6 +21,7 @@
       <a href="#"><font-awesome-icon class="icon1" icon="ticket-alt" />
         <div class="name">BUY TICKETS</div></a>
         </div>
+        
         
         </div>
 
