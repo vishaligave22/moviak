@@ -6,6 +6,7 @@
     <div><topMovies/></div>
     <div><videoSection/></div>
     <div><latestNews/></div>
+    <div><footerSection/></div>
    
   </div>
 </template>
@@ -18,6 +19,7 @@ import moviesList from "@/components/moviesList/moviesList.vue";
 import topMovies from "@/components/topMovies/topMovies.vue";
 import videoSection from "@/components/videoSection/videoSection.vue";
 import latestNews from "@/components/latestNews/latestNews.vue";
+import footerSection from "@/components/footer/footerSection.vue";
 
 export default {
   name: 'home',
@@ -28,6 +30,7 @@ export default {
     topMovies,
     videoSection,
     latestNews,
+    footerSection,
   },
 };
 </script>

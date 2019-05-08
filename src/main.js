@@ -7,11 +7,18 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faUser, faPlayCircle, faExclamationCircle, faAppleAlt, faMapMarkedAlt, faGift, faCreditCard, faTicketAlt, } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faUser, faPlayCircle, faExclamationCircle, faAppleAlt, faMapMarkedAlt, faGift, faCreditCard, faTicketAlt, faLocationArrow, faEnvelope, faPhone, faEnvelopeOpenText, } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import {
+  faTwitter,
+  faFacebookF,
+  faGooglePlusG,
+  faPinterest
+  } from "@fortawesome/free-brands-svg-icons" //fab
+  
 
-library.add(faCoffee,faUser,faPlayCircle,faExclamationCircle,faAppleAlt,faMapMarkedAlt,faGift,faCreditCard,faTicketAlt)
-
+library.add(faCoffee,faUser,faPlayCircle,faExclamationCircle,faAppleAlt,faMapMarkedAlt,faGift,faCreditCard,faTicketAlt,faLocationArrow,faEnvelope,faPhone,faEnvelopeOpenText)
+library.add(faTwitter, faFacebookF, faGooglePlusG,faPinterest) //fab
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false;

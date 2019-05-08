@@ -25,5 +25,7 @@
       color: #42b983;
     }
   }
+}.text-info{
+    color: white;
 }
 </style>

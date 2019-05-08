@@ -1,5 +1,5 @@
 <template>
-    <div class=" mt-5 mb-5">
+    <div class=" mt-6 ">
     <div class="news">
     <div class="title">Latest News</div>
 
@@ -164,7 +164,7 @@ p.card-text {
 }
 .image-section{
     position: relative;
-    bottom:115px;
+    bottom:107px;
 }
 .image .card-img-top{
     
