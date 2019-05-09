@@ -33,6 +33,7 @@
   margin-left: 176px;
   font-size:13px;
   padding-left:75px;
+  
  }
  .navbar{
    padding: -0.5rem 1rem;

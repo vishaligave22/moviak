@@ -82,8 +82,8 @@
   font-size:13px;
   color:$white;
   font-weight:$bold;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 7px;
+    padding-left: 6px;
 }
 .btn:hover {
     color: $white;

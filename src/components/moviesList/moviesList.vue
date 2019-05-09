@@ -179,6 +179,7 @@ a:hover {
 }
 .movie-image{
   border-bottom: 2px solid $orange;
+  position: relative;
 }
 
 </style>

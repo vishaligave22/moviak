@@ -69,10 +69,10 @@
                 <!-- Custom Services -->
           <div class="col-md-3 mt-5 text-left">
             <div class=" custom mt-3">Custom Services</div>
-            <div class="footer-para2 mt-3">Help &amp; contact</div>
-            <div class=" footer-para2 mt-3">Return Policy</div>
-            <div class=" footer-para2 mt-3">Feed Back</div>
-            <div class=" footer-para2 mt-3">Career</div>
+            <div class="footer-para2 mt-2">Help &amp; contact</div>
+            <div class=" footer-para2 mt-2">Return Policy</div>
+            <div class=" footer-para2 mt-2">Feed Back</div>
+            <div class=" footer-para2 mt-2">Career</div>
           </div>
 
           <!-- Recent Posts -->
@@ -170,7 +170,8 @@
 }
 .footer-para3{
     color: #cecbcb;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 600;
 }
 .info{
     color: #cecbcb;
@@ -184,7 +185,7 @@
     height: 35px;
 }
 .date{
-    font-size: 12px;
+    font-size: 10px;
     color: #797878;
 }
 .text-info{

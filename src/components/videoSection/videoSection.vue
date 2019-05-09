@@ -6,12 +6,14 @@
                 <!-- videosection -->
 
               <div class="title mb-3">Videos and photos</div>
-              <iframe width="400" height="280" src="https://www.youtube.com/embed/S7D2Ikz62Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="420" height="280" src="https://www.youtube.com/embed/S7D2Ikz62Ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <div class="subtitle text-left">10 Cloverfield Lane</div>
-              <div class="paragraph text-left px-5">A young woman wakes up after a terrible accident to find that she's
+              <div class="paragraph text-left px-5">
+                A young woman wakes up after a terrible accident to find that she's
                 locked in a cellar with a doomsday prepper,...who insists that he saved
                 her life and that the world outside is uninhabitable following an 
-                apocalyptic catastrophe.Uncertain what to believe.the woman soon...</div>  
+                apocalyptic catastrophe.Uncertain what to believe.the woman soon...
+                </div>  
             </div>
 
             <!-- photosection -->
@@ -71,13 +73,13 @@
     font-size: 23px;
     font-weight: bold;
     color: #f56a18;
-    padding-right: 196px;
+    padding-right: 222px;
 
 }
 .subtitle{
     
     font-weight: bold;
-    padding-left: 64px;
+    padding-left: 54px;
     color:$black;
 
 }
@@ -86,7 +88,7 @@
     font-size: 11px;
     padding-left: 62px;
     color:#4e4e4e;
-    margin-left: 13px;
+    margin-left: 6px;;
 
 }
 </style>

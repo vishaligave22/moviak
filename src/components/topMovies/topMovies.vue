@@ -19,7 +19,7 @@
         <div class="ml-5 mr-5 mt-3">
           <a href="#">
             <font-awesome-icon class="icon" icon="credit-card"/>
-            <div class="name mt-1">VOUCHERS & CARDS</div>
+            <div class="name mt-1">VOUCHERS &amp; CARDS</div>
           </a>
         </div>
 

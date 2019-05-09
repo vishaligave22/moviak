@@ -150,7 +150,7 @@ import img5 from "@/assets/images/grid5.jpg";
     margin-top: -14px;
 }
 p.card-text {
-    margin-top: -5px;
+    margin-top: -8px;
     margin-bottom: 1rem;
     font-size: 14px;
     color: #585757;
@@ -161,8 +161,10 @@ p.card-text {
     border-color: #f56a18;
     border-radius: 50px;
     font-size: 13px;
-    height: 32px;
-    width: 91px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .image-section{
     position: relative;

@@ -14,3 +14,13 @@ $orange:#f56a18;
 $vipbgcolor:#a964a9;
 $italic:italic;
 $border-radius:50px;
+
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+   }
+
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
