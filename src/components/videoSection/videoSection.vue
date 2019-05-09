@@ -83,7 +83,7 @@
 }
 .paragraph{
     
-    font-size: 12px;
+    font-size: 11px;
     padding-left: 62px;
     color:#4e4e4e;
     margin-left: 13px;

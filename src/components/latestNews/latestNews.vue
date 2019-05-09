@@ -137,10 +137,10 @@ import img5 from "@/assets/images/grid5.jpg";
     height: 200px;
 }
 .title{
-    font-size: 23px;
+    font-size: 28px;
     font-weight: bold;
     color:$orange;
-    padding-top: 34px;
+    padding-top: 54px;
 }
 .card-title {
     margin-bottom: 0.75rem;
@@ -150,7 +150,7 @@ import img5 from "@/assets/images/grid5.jpg";
     margin-top: -14px;
 }
 p.card-text {
-    margin-top: 0;
+    margin-top: -5px;
     margin-bottom: 1rem;
     font-size: 14px;
     color: #585757;
@@ -160,11 +160,13 @@ p.card-text {
     background-color: #f56a18;
     border-color: #f56a18;
     border-radius: 50px;
-    font-size: 14px;
+    font-size: 13px;
+    height: 32px;
+    width: 91px;
 }
 .image-section{
     position: relative;
-    bottom:107px;
+    bottom: 94px;
 }
 .image .card-img-top{
     

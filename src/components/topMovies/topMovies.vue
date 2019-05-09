@@ -5,28 +5,28 @@
         <div class="mr-5 ml-5 mt-3 mb-3">
           <a href="#">
             <font-awesome-icon class="icon" icon="map-marked-alt"/>
-            <div class="name mt-2">CINEMAS</div>
+            <div class="name mt-1">CINEMAS</div>
           </a>
         </div>
 
         <div class="mr-5 ml-5 mt-3">
           <a href="#">
             <font-awesome-icon class="icon" icon="gift"/>
-            <div class="name mt-2">PROMATIONS</div>
+            <div class="name mt-1">PROMATIONS</div>
           </a>
         </div>
 
         <div class="ml-5 mr-5 mt-3">
           <a href="#">
             <font-awesome-icon class="icon" icon="credit-card"/>
-            <div class="name mt-2">VOUCHERS & CARDS</div>
+            <div class="name mt-1">VOUCHERS & CARDS</div>
           </a>
         </div>
 
         <div class="ml-5 mr-5 mt-3">
           <a href="#">
             <font-awesome-icon class="icon" icon="ticket-alt"/>
-            <div class="name mt-2">BUY TICKETS</div>
+            <div class="name mt-1">BUY TICKETS</div>
           </a>
         </div>
         <div class="ml-5 mr-5 mt-3 position-relative">

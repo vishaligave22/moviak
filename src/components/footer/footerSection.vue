@@ -69,7 +69,7 @@
                 <!-- Custom Services -->
           <div class="col-md-3 mt-5 text-left">
             <div class=" custom mt-3">Custom Services</div>
-            <div class="footer-para2 mt-3">Help & contact</div>
+            <div class="footer-para2 mt-3">Help &amp; contact</div>
             <div class=" footer-para2 mt-3">Return Policy</div>
             <div class=" footer-para2 mt-3">Feed Back</div>
             <div class=" footer-para2 mt-3">Career</div>
@@ -79,9 +79,9 @@
           <div class="col-md-3 mt-5 text-left">
             <div class="custom mt-3">Recent Posts</div>
             <div class="footer-para3 mt-3">Doctor Strange assembles with the Avengers</div>
-            <div class="date">December 20,2016</div>
+            <div class="date mt-1">December 20,2016</div>
             <div class="footer-para3 mt-4">5 Movies to watch this week(29 sep 2016)</div>
-            <div class="date">December 20,2016</div>
+            <div class="date mt-1">December 20,2016</div>
           </div>
 
           <!-- Contact Us -->
@@ -134,7 +134,7 @@
 
 .footer-image {
  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url(~@/assets/images/img_22.jpg);
-    height: 450px;
+    
     }
 .logo{
     width: 65%;
@@ -148,7 +148,7 @@
     padding-top: 18px;
 }
 .footer-para{
-    color: #b7b5b5;
+    color: #cecbcb;
     font-size: 14px;
 }
 .footernav{
@@ -165,15 +165,15 @@
     font-size: 20px;
 }
 .footer-para2{
-    color: #b7b5b5;
+    color: #cecbcb;
     font-size: 14px;
 }
 .footer-para3{
-    color: #b7b5b5;
+    color: #cecbcb;
     font-size: 12px;
 }
 .info{
-    color: #b7b5b5;
+    color: #cecbcb;
     font-size: 13px;
 }
 .search{
@@ -181,9 +181,11 @@
     border: none;
     border-radius: inherit;
     font-size: 13px;
+    height: 35px;
 }
 .date{
     font-size: 12px;
+    color: #797878;
 }
 .text-info{
     color: white !important;
@@ -192,6 +194,8 @@
     background: #84838382;
     border-radius: 50%;
     margin-right: 6px;
+    height: 37px;
+    width: 40px;
 }
 .number{
     font-size: 13px;
